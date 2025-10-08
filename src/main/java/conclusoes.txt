@@ -1,0 +1,20 @@
+// Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1.
+    // Qual foi a ocorrência?
+    // Resposta: Massa é uma classe privada da CorpoHumano, o que ocasionou o erro.
+
+    // Qual a conclusão sobre o que aconteceu?
+    // Resposta: A variavéis instanciadas como "Private" não podem ser acessadas fora da classe.
+
+// Na classe Corpo_Humano altere a linha private float Massa para public float Massa;
+    // Qual foi a ocorrência?
+    // Resposta: Funcionou, por trocar para "Public", que permite acessar fora da classe.
+
+    // Qual a conclusão sobre o que aconteceu?
+    // Resposta: As classes instanciadas como "Public" podem ser acessadas fora das suas classes de origem.
+
+// Na classe Corpo_Humano altere a linha public setVolume(float volume) para private setVolume(float volume)
+    // Qual foi a ocorrência?
+    // Resposta: O método setVolume(double) não se torna visivel/acessável
+
+    // Qual a conclusão sobre o que aconteceu?
+    // Resposta: As classes instanciadas como "Private" limitam o acesso, permitindo acessá-las somente em suas classes de origem.
